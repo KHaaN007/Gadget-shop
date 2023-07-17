@@ -107,7 +107,7 @@
 }
 
 .card:hover {
-    background-color:aliceblue;
+    background-color: aliceblue;
 
 }
 
@@ -150,6 +150,32 @@
     font-style: normal;
     font-weight: 700;
 }
+
+/* Feature Product */
+.feature-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 170px 350px;
+}
+
+.feature-content {
+    margin-left: 100px;
+}
+
+.feature-title {
+    color: #0A0826;
+    font-family: Poppins;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.feature-details {
+    color: #6C6C6C;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
 
 
 /* Responsive Mobile */
@@ -198,4 +224,15 @@
         margin: 20px 0 0 50px;
     }
 
+    .feature-section{
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+    .feature-img{
+        width: 100%;
+        margin: 50px 0;
+    }
+    .feature-content{
+        margin: 0;
+    }
 }
